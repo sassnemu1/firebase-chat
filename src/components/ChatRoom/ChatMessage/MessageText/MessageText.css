@@ -1,0 +1,20 @@
+.message__text {
+    max-width: 500px;
+}
+.message__text p {
+    padding: 7px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 420px) {
+    .message__text p {
+        font-size: 14px;
+    }
+}
+ 
