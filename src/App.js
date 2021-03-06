@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import SignInWithGoogle from './components/SignInWithGoogle/SignInWithGoogle'
-
+import AuthPage from './page/AuthPage/AuthPage'
 import ChatRoom from './components/ChatRoom/ChatRoom'
 import Navbar from './components/Navbar/Navbar'
 
@@ -14,15 +13,15 @@ const App = () => {
     const [user] = useAuthState(auth)
 
     return (
-        <div className="app-wraper">
-            <header className="header">
-                <Navbar />
-            </header>
+            <div className="app-wraper">
+                <header className="header">
+                    <Navbar />
+                </header>
 
-            <section className="section">
-                {user ? <ChatRoom /> : <SignInWithGoogle />}
-            </section>
-        </div>
+                <section className="section">
+                    {user ? <ChatRoom /> : <AuthPage />}
+                </section>
+            </div>
     )
 }
 

@@ -1,17 +1,18 @@
-main {
+.chat-room {
     padding: 10px;
     height: 75vh;
     max-width: 1080px;
     margin: 2vh auto;
     overflow-y: scroll;
+    background: rgba(172, 172, 172, 0.2);
 }
-    main::-webkit-scrollbar {
+    .chat-room::-webkit-scrollbar {
         width: 0.25rem;
     }
-    main::-webkit-scrollbar-track {
+    .chat-room::-webkit-scrollbar-track {
         background: #555;
     }
-    main::-webkit-scrollbar-thumb {
+    .chat-room::-webkit-scrollbar-thumb {
         background:  #1e1e24;
     }
 
