@@ -17,7 +17,7 @@
     }
 
 .message__form {
-    background: rgba(255, 255, 255, .7);
+    background: #F7F5F6;
     width: 100%;
     max-width: 1080px;
     position: absolute;
@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     padding: 20px 10px;
+    box-shadow: -1px 1px 20px #d3d3d3;
 }
 .message__input,
 .message__button {

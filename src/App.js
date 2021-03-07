@@ -15,7 +15,7 @@ const App = () => {
     return (
             <div className="app-wraper">
                 <header className="header">
-                    <Navbar />
+                    {user ? <Navbar /> : <span></span>}
                 </header>
 
                 <section className="section">

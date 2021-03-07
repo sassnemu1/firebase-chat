@@ -1,10 +1,11 @@
 .navbar {
     width: 100%;
-    background: rgba(255,255,255,.7);
+    background: #F7F5F6;
     padding: 1em 2em;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    box-shadow: -1px 1px 20px #d3d3d3;
 }
 
 @media (max-width: 420px) {
